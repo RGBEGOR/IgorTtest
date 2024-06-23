@@ -1,0 +1,114 @@
+/* 1300 */
+/* 1200 */
+/* 992 */
+/* 768 */
+/* 576 */
+/* 320 */
+
+  
+@media (max-width: 1200px){
+    
+}
+
+@media (max-width: 1150px){
+   
+}       
+   
+@media (max-width: 992px){
+    .IMG-1{
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    
+    }
+    .IMG-2{
+    width: 100%;
+    height: 100%;   
+    }
+    .IMG-3{
+    width: 100%;
+     height: 100%;    
+    }
+    .IMG-4{
+    width: 100%;
+    height: 100%;    
+    }
+    .IMG-7{
+    width: 100%;
+    height: 100%;    
+    }
+    .IMG-5{
+    width: 100%;
+    height: 100%;    
+    }
+
+    .around-img{
+    width: 100%;
+    height: 100%; 
+justify-content: center;
+    flex-wrap: wrap;
+    }
+    .certificates__item{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+}
+
+@media (max-width: 768px){
+
+}
+    
+@media (max-width: 576px){
+    .header__top{
+        flex-direction: column;
+        gap: 20px;
+
+    }
+}
+    
+@media (max-width: 543px){
+
+    .menu-children{
+display: none;
+
+
+    }
+    .main-menu ul li a {
+display: none;
+        
+    }
+    .main-menu li.menu-children:hover > ul{
+        display: none;
+    }
+    .main-menu ul{
+        display: none;
+    }
+}
+
+
+
+@media (max-width: 320px){
+    .certificates__item{
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .Doc-1{
+        width: 100%;
+        height: 100%;
+
+    }
+    .header__top{
+        flex-direction: column;
+
+    }
+    .main-menu{
+        flex-direction: column;
+ align-items: center;
+    }
+    .author__top{
+        font-size: 20px;
+        
+    }
+}
